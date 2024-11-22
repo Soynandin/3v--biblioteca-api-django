@@ -60,19 +60,19 @@ O sistema permite que os usuários criem coleções de livros e as associem a um
    - **URL**: `/api/livros/`  
    - **Método**: `POST`  
    - **Descrição**: Cria um novo livro.  
-   - **Permissões**: Requer autenticação (usuário autenticado).
+   - **Permissões**: Acesso público (não requer autenticação).
 
 4. **Editar Livro**  
    - **URL**: `/api/livros/{id}/`  
    - **Método**: `PUT` ou `PATCH`  
    - **Descrição**: Atualiza os dados de um livro específico.  
-   - **Permissões**: Requer autenticação (usuário autenticado).
+   - **Permissões**: Acesso público (não requer autenticação).
 
 5. **Excluir Livro**  
    - **URL**: `/api/livros/{id}/`  
    - **Método**: `DELETE`  
    - **Descrição**: Exclui um livro específico.  
-   - **Permissões**: Requer autenticação (usuário autenticado).
+   - **Permissões**: Acesso público (não requer autenticação).
 
 
 #### **Categorias**
@@ -93,19 +93,19 @@ O sistema permite que os usuários criem coleções de livros e as associem a um
    - **URL**: `/api/categorias/`  
    - **Método**: `POST`  
    - **Descrição**: Cria uma nova categoria.  
-   - **Permissões**: Requer autenticação (usuário autenticado).
+   - **Permissões**: Acesso público (não requer autenticação).
 
 9. **Editar Categoria**  
    - **URL**: `/api/categorias/{id}/`  
    - **Método**: `PUT` ou `PATCH`  
    - **Descrição**: Atualiza os dados de uma categoria específica.  
-   - **Permissões**: Requer autenticação (usuário autenticado).
+   - **Permissões**: Acesso público (não requer autenticação).
 
 10. **Excluir Categoria**  
     - **URL**: `/api/categorias/{id}/`  
     - **Método**: `DELETE`  
     - **Descrição**: Exclui uma categoria específica.  
-    - **Permissões**: Requer autenticação (usuário autenticado).
+    - **Permissões**: Acesso público (não requer autenticação).
 
 
 #### **Autores**
@@ -126,19 +126,19 @@ O sistema permite que os usuários criem coleções de livros e as associem a um
     - **URL**: `/api/autores/`  
     - **Método**: `POST`  
     - **Descrição**: Cria um novo autor.  
-    - **Permissões**: Requer autenticação (usuário autenticado).
+    - **Permissões**: Acesso público (não requer autenticação).
 
 14. **Editar Autor**  
     - **URL**: `/api/autores/{id}/`  
     - **Método**: `PUT` ou `PATCH`  
     - **Descrição**: Atualiza os dados de um autor específico.  
-    - **Permissões**: Requer autenticação (usuário autenticado).
+    - **Permissões**: Acesso público (não requer autenticação).
 
 15. **Excluir Autor**  
     - **URL**: `/api/autores/{id}/`  
     - **Método**: `DELETE`  
     - **Descrição**: Exclui um autor específico.  
-    - **Permissões**: Requer autenticação (usuário autenticado).
+    - **Permissões**: Acesso público (não requer autenticação).
 
 
 #### **Coleções**
