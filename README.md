@@ -271,3 +271,26 @@ JSON Web Token (JWT) é uma forma compacta e segura de transmitir informações 
 3. **Atualizando o Token de Acesso**
 Quando o access token expira, o usuário pode obter um novo access token enviando o **refresh token** para o endpoint POST `/api/token/refresh/`.
 
+## Documentação
+
+*Acesse a documentação automática gerada por drf-spectacular:*
+
+- Swagger UI: http://localhost:8000/api/docs/swagger/
+- Redoc: http://localhost:8000/api/docs/redoc/
+
+
+## Permissões
+- *Coleções:*
+- Apenas usuários autenticados podem criar, editar e excluir coleções.
+- Apenas o colecionador pode editar ou excluir sua coleção.
+
+- *Livros, Categorias e Autores:*
+- Acessíveis a qualquer usuário (anônimo ou autenticado).
+
+## Filtros e Paginação
+*Filtros:*
+- Livros: titulo, autor, categoria.
+- Coleções: nome, colecionador.
+- Paginação:
+
+*Configuração padrão:* LimitOffsetPagination (limite e deslocamento personalizáveis).
